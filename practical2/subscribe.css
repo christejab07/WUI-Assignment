@@ -41,7 +41,7 @@ body > nav {
 }
 .navigate > a {
      text-decoration: none;
-     color: bisque;
+     color: black;
 }
 .navigate:hover {
      border-bottom: 5px solid bisque;
@@ -66,3 +66,20 @@ input {
      border: 2px solid black;
      border-radius: 2px;
 }
+@media screen and (max-width: 480px) {
+     .navigation {
+          display: inline-table;
+          margin: 5px;
+          color: #000;
+     }
+     div > button {
+          width: 80%;
+          height: 50px;
+          margin: 10px 10%;
+     } 
+     .container > input {
+          width: 80%;
+          height: 50px;
+          margin: 10px 10%;
+     }
+   }

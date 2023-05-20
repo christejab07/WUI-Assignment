@@ -163,3 +163,72 @@ footer {
 span {
      margin: 2em;
 }
+
+   @media screen and (max-width: 992px) {
+     .new1 {
+          display: inline-block;
+          width: 35%;
+     }
+     .new2 {
+          display: inline-block;
+          width: 35%;
+     }
+     .new3 {
+          display: inline-block;
+          width: 35%;
+     }
+     .new4 {
+          display: inline-block;
+          width: 35%;
+     }
+     .new5 {
+          display: inline-block;
+          width: 35%;
+     }
+   }
+  
+   @media screen and (max-width: 600px) {
+     .new1 {
+          display: block;
+          width: 60%;
+     }
+     .new2 {
+          display: block;
+          width: 60%;
+     }
+     .new3 {
+          display: block;
+          width: 60%;
+     }
+     .new4 {
+          display: block;
+          width: 60%;
+     }
+     .new5 {
+          display: block;
+          width: 60%;
+     }
+   }
+
+   @media screen and (max-width: 480px) {
+     .new1 {
+          display: block;
+          width: 80%;
+     }
+     .new2 {
+          display: block;
+          width: 80%;
+     }
+     .new3 {
+          display: block;
+          width: 80%;
+     }
+     .new4 {
+          display: block;
+          width: 80%;
+     }
+     .new5 {
+          display: block;
+          width: 80%;
+     }
+   }
